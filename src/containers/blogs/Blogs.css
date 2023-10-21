@@ -1,0 +1,27 @@
+.rssflux {
+  position: relative;
+  padding-bottom: 39.25%; /* 16:9 Ratio */
+  height: 0;
+  overflow: hidden;
+  border: 0px solid #ffffff;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .rssflux {
+    padding-bottom: 150.25%; /* 16:9 Ratio */
+  }
+}
+
+.rssflux iframe {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
